@@ -1,0 +1,688 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/*登陆导航*/
+.header{
+	width: 100%;
+	background: #f5f5f5;
+	text-align: center;
+}
+.header_1{
+	width: 980px;
+	height: 36px;
+    background: #F7F7F8;
+    margin:0 auto
+}
+.hend{
+	list-style: none;
+}
+.hend li{
+	 display: inline;
+	 line-height: 35px;
+	 float:left;
+}
+.hend li a{
+	text-decoration: none;
+	padding: 16px;
+	color: #6A6C70;
+    font-size: 12px;
+    border-right:1px solid white;
+}
+.hend li a:hover{
+	color: chocolate;
+}
+.hend_1{
+	list-style: none;
+}
+.hend_1 li{
+	display: inline;
+	line-height: 35px;
+	float: right;
+}
+.hend_1 li a{
+	text-decoration: none;
+	padding: 16px;
+	color: #333333;
+    font-size: 14px;
+    border-right:1px solid white;
+}
+.hend_1 li a:hover{
+	color: chocolate;
+}
+/*搜索导航*/
+.shousuo{
+	background: #FFFFFF;
+    width: 100%;
+    height: 90px;
+    display: flex;
+}
+.meisi{
+	width: 980px;
+	margin:0 auto;
+	align-self: center;
+}
+.meisi_1{
+	width: 170px;
+	position: relative;
+}
+.logo{
+	margin-top: 13px;
+	margin-right: 12px;
+}
+.name{
+	width: 59px;
+    background: #FF6B6B;
+    border-radius: 6px;
+    padding: 0px 3px 4px 3px;
+    position: absolute;
+    top: 3px;
+    left: 152px;
+}
+.name a{
+    font-size: 13px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-style: italic;
+}
+.search{
+	position: absolute;
+	top: 8px;
+    left: 732px;
+    border-radius: 20px;
+}
+.user-input{
+	width: 160px;
+    height: 31px;
+    border: 2px solid #E0E0E0;
+    border-radius: 18px;
+    box-sizing: border-box;
+    outline: none;
+    text-indent: 10px;
+}
+.xiala{
+	width: 100%;
+	height: 40px;
+	margin: 0 auto;
+	background: #FF5A59;
+}
+.layui-nav{
+	width: 980px;
+    margin: 0 auto;
+    font-family: "Microsoft YaHei", SimSun, SimHei;
+}
+.layui-nav-item{
+	position: relative;
+    float: left;
+    width: 104px;
+    margin: 0 24px;
+    display: inline;
+    height: 40px;
+}
+.layui-nav-item a{
+	text-decoration: none;
+	text-align: center;
+    height: 16px;
+    line-height: 16px;
+    padding: 0px 0px 0px 0px;
+    display: block;
+    color: #fff;
+    font-size: 16px;
+}
+#ad{
+		padding: 10px;
+}
+#erji{
+	top: 40px;
+}
+#da{
+	margin: 6px 0px -8px 0px;
+	height: 34px;
+}
+.layui-nav .layui-nav-more{
+	position: absolute;
+	top: 11px;
+}
+.fen{
+	width: 980px;
+	margin: 0 auto;
+	text-align: left;
+    height: 31px;
+    padding: 9px;
+}
+.fen .wen{
+	font-size: 14px;
+	color: #333333;
+}
+.fen .wen1{
+	font-size: 14px;
+	color: #999999;
+}
+.fen .layui-icon{
+	color: #d2d2d2;
+}
+.darong{
+	width: 980px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.zuo1{
+	overflow: hidden;
+	position: relative;
+	width: 580px;
+	background: #FFFFFF;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.08);
+}
+.zuo1_1{
+	width: 96px;
+    height: 24px;
+    font-size: 20px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #1A1A1A;
+    margin: 18px;
+    display: inline-block;
+    float: left;
+}
+.zuo1_2{
+	width: 28px;
+    height: 24px;
+    font-size: 14px;
+    color: #1A1A1A;
+    display: inline-block;
+    position: absolute;
+    top: 22px;
+    left: 515px;
+}
+.zuo1 .img1{
+	width: 14px;
+    height: 14px;
+    position: absolute;
+    right: 70px;
+    top: 25px;
+}
+#zuo{
+	font-size: 13px;
+    color: springgreen;
+}
+#e{
+	text-align: center;
+	display: inline-block;
+	width: 48px;
+    height: 24px;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 12px;
+    font-size: 12px;
+    line-height: 25px;
+}
+.duan{
+	width: 548px;
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #333333;
+    line-height: 24px;
+    padding-left: 19px;
+    text-align: initial;
+}
+.tuij{
+	float: left;
+	padding: 18px;
+}
+.tuij span:nth-child(1){
+	display: inline-block;
+	width: 18px;
+    height: 18px;
+    background: #FF6B6A;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.tuij span:nth-child(2){
+	display: inline-block;
+	width: 82px;
+    height: 14px;
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #666666;
+}
+.tuij span:nth-child(3){
+	display: inline-block;
+	width: 174px;
+    height: 14px;
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #1A1A1A;
+}
+.zuo2{
+	margin-block: 28px;
+	overflow: hidden;
+	width: 580px;
+	height: 280px;
+	background: #FFFFFF;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.08);
+}
+.zuo2_1{
+	padding: 18px;
+	width: 64px;
+    height: 16px;
+    font-size: 16px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #1A1A1A;
+}
+.wasd{
+	width: 292px;
+	height:46px;
+	border: 1px solid #f5f5f5;
+	position: relative;
+}
+.liewen1{
+	width: 130px;
+    height: 25px;
+    font-size: 14px;
+font-family: Microsoft YaHei;
+font-weight: 400;
+color: #1A1A1A;
+line-height: 24px;
+position: absolute;
+top: 12px;
+text-align: initial;
+    left: 20px;
+}
+.liewen2{
+	width: 130px;
+height: 25px;
+font-size: 14px;
+font-family: Microsoft YaHei;
+font-weight: 400;
+color: #999999;
+line-height: 24px;
+position: absolute;
+top: 12px;
+    left: 163px;
+}
+.zuo2_2{
+	height: 227px;
+	display: flex;
+	flex-direction: column;
+    flex-wrap: wrap;
+}
+.zuo3{
+	width: 580px;
+	background: #FFFFFF;
+}
+.zuo3_1{
+	padding: 18px;
+    width: 64px;
+    height: 16px;
+    font-size: 16px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #1A1A1A;
+}
+.zuo3_2{
+	width: 540px;
+	height: 156px;
+	display: flex;
+	position: relative;
+	margin: 18px;
+	border-bottom: 1px inset;
+}
+.zuo3_2_3{
+	width: 62px;
+    height: 24px;
+    font-size: 16px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #1A1A1A;
+    line-height: 24px;
+    position: absolute;
+    left: 214px;
+}
+.zuo3_2_4{
+	width: 338px;
+    height: 75px;
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #333333;
+    line-height: 24px;
+    position: absolute;
+    left: 200px;
+    top: 40px;
+    text-align: initial;
+}
+.zuo3_2_2{
+	position: relative;
+	width: 25px;
+    height: 29px;
+    background: url(../img/index.2021.png) no-repeat;
+    background-position: -300px -269px;
+    position: absolute;
+    left: 195px;
+}
+.hena{
+	color: #FFFFFFFF; 
+	font-size: 16px;
+	position: absolute;
+	left: 8px;
+    top: 4px;
+}
+.zuo3_3_1{
+	width: 117px;
+    height: 27px;
+    background: url(../img/index.2021.png) no-repeat;
+    background-position: -180px -126px;
+}
+.zuo3_3_2{
+	position: absolute;
+    top: 35px;
+    width: 432px;
+    text-align: initial;
+
+}
+.zuo3_3_2 p{
+	font-size: 14px;
+font-family: Microsoft YaHei;
+font-weight: 400;
+color: #333333;
+line-height: 30px;
+}
+.zuo4{
+	width: 580px;
+    height: 311px;
+    background: #FFFFFF;
+    margin-block: 28px;
+}
+.zuo4_1{
+	width: 88px;
+    height: 24px;
+    font-size: 16px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #1A1A1A;
+    padding: 18px;
+}
+.zuo4_2{
+	width: 550px;
+	height: 256px;
+	margin-left: 19px;
+}
+.caim{
+	width: 116px;
+    height: 28px;
+    font-size: 14px;
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: #1A1A1A;
+    line-height: 30px;
+}
+.caim:hover{
+	color:#ff2832;
+}
+.zuo4_2li{
+	float: left;
+	width: 126px;
+    height: 110px;
+    margin: 0 5px 11px;
+    text-align: initial;
+}
+.you1{
+	width: 380px;
+    height: 181px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.08);
+}
+.you1_1{
+	width: 275px;
+    height: 103px;
+    position: relative;
+}
+.you1_1 .you1_1_1{
+	width: 67px;
+    height: 66px;
+    background: url(../img/index.2021.png) no-repeat;
+    background-position: 1px -111px;
+    position: absolute;
+    top: 13px;
+    left: 13px;
+}
+.you1_1 .you1_1_2{
+	width: 82px;
+    height: 28px;
+    font-size: 16px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #1A1A1A;
+    line-height: 30px;
+    position: absolute;
+    top: 23px;
+    left: 80px;
+}
+.you1_1 .you1_1_3{
+	width: 17px;
+    height: 17px;
+    background: url(../img/index.2021.png) no-repeat;
+    background-position: -290px -93px;
+    position: absolute;
+    top: 28px;
+    left: 157px;
+}
+.you1_1 .you1_1_4{
+	width: 123px;
+    height: 27px;
+    font-size: 12px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #AAAAAA;
+    line-height: 30px;
+    position: absolute;
+    top: 47px;
+    left: 73px;
+}
+.you1_2 .you1_2_1{
+	width: 87px;
+	font-size: 16px;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: #1A1A1A;
+}
+.you1_2 .you1_2_2{
+	width: 87px;
+font-size: 14px;
+font-family: Microsoft YaHei;
+font-weight: 400;
+color: #999999;
+}
+.you1_2 ul li{
+	float: left;
+	margin: 16px;
+}
+.you2{
+	width: 380px;
+	height: 587px;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.08);
+	margin-block: 28px;
+}
+.you2_1{
+	width: 380px;
+    height: 56px;
+    border-bottom: 1px inset;
+}
+.you2_1 p{
+	font-size: 16px;
+	color: #333333;
+	width: 100px;
+	padding: 16px;
+}
+.you2_2 .you2_2_2{
+	width: 95px;
+height: 25px;
+font-size: 14px;
+font-family: Microsoft YaHei;
+font-weight: 400;
+color: #333333;
+line-height: 25px;
+    display: inline-block;
+}
+.you2_2 .you2_2_2:hover{
+	color:#ff2832;
+}
+.you2_2 ul li{
+	float: left;
+    width: 140px;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 30px;
+}
+.you2_2 .you2_2_1{
+	width: 24px;
+	height: 20px;
+	margin: -3px 3px;
+	background: url(../img/index.2021.png) no-repeat;
+	display: inline-block;
+}
+.you3{
+	width: 380px;
+	height: 568px;
+	background: #FFFFFF;
+	border: 1px solid #F2F2F2;
+	position: relative;
+}
+.you3_2_2{
+	width: 125px;
+	height: 28px;
+	font-size: 14px;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: #1A1A1A;
+	line-height: 35px;
+}
+.you3_2_2:hover{
+	color:#ff2832;
+}
+.you3_2_3 span{
+	width: 23px;
+	height: 12px;
+	font-size: 12px;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: #999999;
+}
+.you3_2{
+	width: 380px;
+	height: 490px;
+}
+.you3_2li{
+	float: left;
+    width: 190px;
+    height: 136px;
+    margin-top: 20px;
+    text-align: -webkit-center;
+}
+.you4{
+	width: 380px;
+	height: 811px;
+	background: #FFFFFF;
+	border: 1px solid #F2F2F2;
+	margin-block: 28px;
+}
+.you4_2li_1{
+	
+height: 29px;
+font-size: 14px;
+font-family: Microsoft YaHei;
+font-weight: 400;
+color: #1A1A1A;
+line-height: 24px;
+}
+.you4_2li_2{
+	height: 28px;
+	font-size: 12px;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: #AAAAAA;
+}
+.you4_2li{
+	border-bottom: 1px dashed lightgray;
+    width: 330px;
+    margin: 12px 0px 18px 32px;
+    text-align: initial;
+}
+.you4_2li_1:hover{
+	color:#ff2832;
+}
+#you4_2li{
+	border: none;
+}
+/*底部内容*/
+.dibu{
+	width: 100%;
+	height: 260px;
+	background: #FFFFFF;
+}
+.dibu_1{
+	width: 980px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 50px;
+}
+.dibu_1 span{
+	margin:0 18px;
+	color: #d2d2d2;
+}
+.dibu_1 a{
+font-size: 14px;
+font-family: Microsoft YaHei;
+font-weight: 400;
+color: #333333;
+}
+.dibu_1 a:hover{
+	color:#ff2832;
+}
+.dibu_2{
+	width: 980px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+}
+.dibu_2b{
+	display: inline-block;
+	position: absolute;
+	left: -2px;
+    top: -1px;
+    font-size: 16px;
+    color: #333333;
+}
+.dibu_2a{
+	width: 850px;
+    height: 100px;
+    display: inline-block;
+    text-align: initial;
+    margin-left: 25px;
+    line-height: 20px;
+}
+.dibu_2a a{
+	font-size:12px;
+	margin-right: 12px;
+	color: #AAAAAA;
+}
+.dibu_2a a:hover{
+	color:#ff2832;
+}
+.dibu_3{
+	width: 980px;
+	text-align: center;
+	margin: 0 auto;
+}
+.dibu_3 p{
+font-size: 12px;
+font-family: Microsoft YaHei;
+font-weight: 400;
+color: #999999;
+}

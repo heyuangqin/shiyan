@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="//unpkg.com/layui@2.6.7/dist/css/layui.css">
+	    <link rel="stylesheet" type="text/css" href="css/recipes.css"/>
+		
+	</head>
+	<body>
+	  <div class="header">
+	  	<div class="header_1">
+	  		<div class="header_1cf">
+	  			<ul class="hend">
+	  				<li><a href="#">首页</a></li>
+	  				<li><a href="#">怀孕</a></li>
+	  				<li><a href="#">育儿</a></li>
+	  				<li><a href="#">营养</a></li>
+	  				<li><a href="#">早教</a></li>
+	  				<li><a href="#">百科</a></li>
+	  				<li><a href="#">视频</a></li>
+	  				<li><a href="#">问答</a></li>
+	  				<li><a href="#">起名</a></li>
+	  				<li><a href="#">妈妈医生</a></li>
+	  			</ul>
+	  		</div>
+	  		<div class="header_1ch">
+	  			<ul class="hend_1">
+	  				<li><a href="#">登陆</a></li>
+	  				<li><a href="#">注册</a></li>
+	  			</ul>
+	  		</div>
+	  	</div>
+	  	<div class="shousuo">
+				<div class="meisi">
+			         <div class="meisi_1">
+			            <div class="logo">
+			                <a href="http://dev-www.phpdi.cn"><img src="http://dev-static.phpdi.cn/home/images/logo.png" alt=""></a>
+			            </div>
+			            <div class="name">
+			                <a class="/" href="">美食营养</a>
+			            </div>
+			            <div class="search" >
+			              <input class="user-input" type="text" name="search" placeholder="请输入搜索内容">
+			            </div>
+			       </div>
+	
+		  		</div>
+	  		</div>
+		<div class="xiala">
+			<ul class="layui-nav" lay-filter="">
+               <li class="layui-nav-item "><a href="#" id="ad">首页</a></li>
+               <li class="layui-nav-item "><a href="" id="ad">热门菜式</a></li>
+               <li class="layui-nav-item"><a href="" id="ad">孕妈食谱</a>
+               	 <dl class="layui-nav-child" id="erji"> <!-- 二级菜单 -->
+                 <dd id="da"><a href="">备孕食谱</a></dd>
+                 <dd id="da"><a href="">孕期食谱</a></dd>
+                 <dd id="da"><a href="">孕后食谱</a></dd>
+                 </dl>
+               </li>
+               <li class="layui-nav-item">
+                 <a href="javascript:;" id="ad">宝宝食谱</a>
+                 <dl class="layui-nav-child" id="erji"> <!-- 二级菜单 -->
+                 <dd id="da"><a href="">备孕食谱</a></dd>
+                 <dd id="da"><a href="">孕期食谱</a></dd>
+                 <dd id="da"><a href="">孕后食谱</a></dd>
+                </dl>
+               </li>
+               <li class="layui-nav-item"><a href="" id="ad">视频</a></li>
+               <li class="layui-nav-item"><a href="" id="ad">宝妈分享</a></li>
+</ul>
+		</div>
+		<div class="fen">
+			<span class="wen">营养首页</span>
+			<i class="layui-icon">&#xe602;</i> 
+			<span class="wen">孕妈食谱</span>
+			<i class="layui-icon">&#xe602;</i> 
+			<span class="wen">孕前食谱</span>
+			<i class="layui-icon">&#xe602;</i> 
+			<span class="wen1">补血营养大全</span>
+		</div>
+	    <div class="darong">
+	     <div style="float: left;">
+	      <div class="zuo1">
+	      	<div class="zuo1_1">猪猪馒头</div>
+	      	<div class="img1">
+	      	    <i class="layui-icon" id="zuo">&#xe6c6;</i> 	
+	      	</div>
+	    	<div class="zuo1_2">推荐</div>
+	    	<div style="width: 580px;">
+	    		<img src="img/img2.png" />
+	    	</div>
+	    	<div class="lie" style="overflow: hidden;">
+	    		<ul style="float: left; padding: 17px;">
+	    			<li id="e">红枣</li>
+	    			<li id="e">枸杞</li>
+	    			<li id="e">红糖</li>
+	    			<li id="e">桂圆</li>
+	    			<li id="e">猪肝</li>
+	    			<li id="e">莲子</li>
+	    		</ul>
+	    	</div>
+	    	<div class="duan">
+	    		栗子含有丰富的维生素C，能够维持牙齿、骨骼、血管肌肉的正常功用，可以预防和治疗骨质疏松，腰腿酸软，筋骨疼痛、乏力等。红枣有“天然维生素丸”的美誉,具有滋阴补阳，补血之功效。
+	    	</div>
+	    	<div class="tuij">
+	    		<span>荐</span>
+	    		<span>推荐人群：</span>
+	    		<span>备孕人群、孕期、月子/产后</span>
+	    	</div>
+	      </div>
+          <div class="zuo2">
+          	<div class="zuo2_1">需要食材</div>
+          	<div class="zuo2_2">
+          		<div class="wasd">
+          			<div class="liewen1">中筋面粉</div>
+          		    <div class="liewen2">200克</div>
+          		</div>
+          		<div class="wasd">
+          			<div class="liewen1">温水</div>
+          		    <div class="liewen2">200克</div>
+          		</div>
+          		<div class="wasd">
+          			<div class="liewen1">澳优淳璀奶粉</div>
+          		    <div class="liewen2">200克</div>
+          		</div>
+          		<div class="wasd">
+          			<div class="liewen1">红曲粉</div>
+          		    <div class="liewen2">200克</div>
+          		</div>
+          		<div class="wasd">
+          			<div class="liewen1">干酵母</div>
+          		    <div class="liewen2">200克</div>
+          		</div>
+          		<div class="wasd">
+          			<div class="liewen1">竹炭粉</div>
+          		    <div class="liewen2">200克</div>
+          		</div>
+          		<div class="wasd">
+          			<div class="liewen1">枸杞子</div>
+          		    <div class="liewen2">200克</div>
+          		</div>
+          		<div class="wasd">
+          			<div class="liewen1"></div>
+          		    <div class="liewen2"></div>
+          		</div>
+          	</div>
+          </div>
+	      <div class="zuo3">
+	      	<div class="zuo3_1">做法步骤</div>
+	      	<div class="zuo3_2">
+	      		<div class="zuo3_2_1"><img src="img/tu.png"/></div>
+	      		<div class="zuo3_2_2"><span class="hena">1</span></div>
+	      	    <div class="zuo3_2_3">步骤1</div>
+	      	    <div class="zuo3_2_4">准备食材：杏仁10颗、银耳3朵、木耳（干）5朵、圣女果2个、枸杞子10粒、黑胡椒1/2茶匙、苹果醋1勺、粗盐1茶匙、蜂蜜少许、</div>
+	      	</div>
+	      	<div class="zuo3_2">
+	      		<div class="zuo3_2_1"><img src="img/tu.png"/></div>
+	      		<div class="zuo3_2_2"><span class="hena">2</span></div>
+	      	    <div class="zuo3_2_3">步骤2</div>
+	      	    <div class="zuo3_2_4">银耳洗干净切成小朵泡发。</div>
+	      	</div>
+	      	<div class="zuo3_2">
+	      		<div class="zuo3_2_1"><img src="img/tu.png"/></div>
+	      		<div class="zuo3_2_2"><span class="hena">3</span></div>
+	      	    <div class="zuo3_2_3">步骤3</div>
+	      	    <div class="zuo3_2_4">黑木耳洗干净泡发。</div>
+	      	</div>
+	      	<div class="zuo3_2">
+	      		<div class="zuo3_2_1"><img src="img/tu.png"/></div>
+	      		<div class="zuo3_2_2"><span class="hena">4</span></div>
+	      	    <div class="zuo3_2_3">步骤4</div>
+	      	    <div class="zuo3_2_4">放入容器中，小番茄对半切开，点缀其中。</div>
+	      	</div>
+	      	<div class="zuo3_2">
+	      		<div class="zuo3_2_1"><img src="img/tu.png"/></div>
+	      		<div class="zuo3_2_2"><span class="hena">5</span></div>
+	      	    <div class="zuo3_2_3">步骤5</div>
+	      	    <div class="zuo3_2_4">另外拿一个碗先加入1汤勺果醋，可以根据自己所需用量调整，只要保证油和醋的比例是3:1即可，加入海盐、黑胡椒碎拌匀。</div>
+	      	</div>
+	      	<div class="zuo3_2">
+	      		<div class="zuo3_2_1"><img src="img/tu.png"/></div>
+	      		<div class="zuo3_2_2"><span class="hena">6</span></div>
+	      	    <div class="zuo3_2_3">步骤6</div>
+	      	    <div class="zuo3_2_4">装盘摆形状，一道美味又好看的佳肴诞生。</div>
+	      	</div>
+	      	<div class="zuo3_2" style="border: none; height: 191px;">
+	      		<div class="zuo3_3_1"></div>
+	      		<div class="zuo3_3_2">
+	      			<p>1、调制油醋汁时，所有的调料建议在室温下去，避免冷藏调料。冷藏后的调料不太容易混合均匀。</p>
+	      			<p>2、混合好后的油醋汁静置片刻，可以让调料更好的融合。</p>
+	      			<p>3、色拉吃之前再淋上色拉汁，这样可以保证大杏仁的干脆。</p>
+	      		</div>
+	      	</div>
+	      	
+	      	
+	      	
+	      </div>
+	      <div class="zuo4">
+	      	<div class="zuo4_1">
+	      		相关菜谱
+	      	</div>
+	      	<div class="zuo4_2">
+	      	    <ul>
+	      	    	<li class="zuo4_2li">
+	      	    		<a href="#">
+	      	    			<img src="img/img.png" />
+	      	    			<span class="caim">鲜竹笋小炒肉</span>
+	      	    		</a>
+	      	    	</li>
+	      	    	<li class="zuo4_2li">
+	      	    		<a href="#">
+	      	    			<img src="img/img.png" />
+	      	    			<span class="caim">双椒炒鱿鱼卷</span>
+	      	    		</a>
+	      	    	</li>
+	      	    	<li class="zuo4_2li">
+	      	    		<a href="#">
+	      	    			<img src="img/img.png" />
+	      	    			<span class="caim">辣白菜炒年糕</span>
+	      	    		</a>
+	      	    	</li>
+	      	    	<li class="zuo4_2li">
+	      	    		<a href="#">
+	      	    			<img src="img/img.png" />
+	      	    			<span class="caim">蒜蓉剁椒酱</span>
+	      	    		</a>
+	      	    	</li>
+	      	    	<li class="zuo4_2li">
+	      	    		<a href="#">
+	      	    			<img src="img/img.png" />
+	      	    			<span class="caim">鲜竹笋小炒肉</span>
+	      	    		</a>
+	      	    	</li>
+	      	    	<li class="zuo4_2li">
+	      	    		<a href="#">
+	      	    			<img src="img/img.png" />
+	      	    			<span class="caim">双椒炒鱿鱼卷</span>
+	      	    		</a>
+	      	    	</li>
+	      	    	<li class="zuo4_2li">
+	      	    		<a href="#">
+	      	    			<img src="img/img.png" />
+	      	    			<span class="caim">辣白菜炒年糕</span>
+	      	    		</a>
+	      	    	</li>
+	      	    	<li class="zuo4_2li">
+	      	    		<a href="#">
+	      	    			<img src="img/img.png" />
+	      	    			<span class="caim">蒜蓉剁椒酱</span>
+	      	    		</a>
+	      	    	</li>
+	      	    </ul>
+	      	    
+	      	</div>
+	      	
+	      </div>
+         </div>
+         <div style="float: right;">
+         	<div class="you1">
+          	 <div class="you1_1">
+          		<div class="you1_1_1"></div>
+          		<div class="you1_1_2">橘子汽水</div>
+          		<div class="you1_1_3"></div>
+          		<div class="you1_1_4">本文由该宝妈分享</div>
+          	 </div>
+          	 <div class="you1_2">
+          		<ul>
+          			<li>
+          				<p class="you1_2_1">135</p>
+          				<p class="you1_2_2">文章</p>
+          			</li>
+          			<li>
+          				<p class="you1_2_1">287326</p>
+          				<p class="you1_2_2">获赞</p>
+          			</li>
+          			<li>
+          				<p class="you1_2_1">怀孕中</p>
+          				<p class="you1_2_2">状态</p>
+          			</li>
+          		</ul>
+          	</div>
+          	</div>
+            <div class="you2">
+            	<div class="you2_1">
+            		<p>热词推荐</p>
+            	</div>
+            	<div class="you2_2">
+            		<ul>
+            			<li>
+            			    <span class="you2_2_1" style="background-position: -6px -183px;"></span>
+            				<a href="#"><span class="you2_2_2">胡萝卜</span></a>
+            			</li>
+            			<li>
+            			    <span class="you2_2_1" style="background-position: -37px -183px;"></span>
+            				<a href="#"><span class="you2_2_2">猕猴桃</span></a>
+            			</li>
+            			<li>
+            			    <span class="you2_2_1" style="background-position: -72px -183px;"></span>
+            				<a href="#"><span class="you2_2_2">番石榴</span></a>
+            			</li>
+            			<li>
+            			    <span class="you2_2_1" style="background-position: -105px -183px;"></span>
+            				<a href="#"><span class="you2_2_2">土豆</span></a>
+            			</li>
+            			<li>
+            			    <span class="you2_2_1" style="background-position: -138px -183px;"></span>
+            				<a href="#"><span class="you2_2_2">番茄</span></a>
+            			</li>
+            			<li>
+            			    <span class="you2_2_1" style="background-position: -171px -183px;"></span>
+            				<a href="#"><span class="you2_2_2">板栗</span></a>
+            			</li>
+            			<li>
+            			    <span class="you2_2_1" style="background-position: -202px -183px;"></span>
+            				<a href="#"><span class="you2_2_2">火龙果</span></a>
+            			</li>
+            			<li>
+            			    <span class="you2_2_1" style="background-position: -235px -183px;"></span>
+            				<a href="#"><span class="you2_2_2">牛油果</span></a>
+            			</li>
+            			<li>
+            			    <span class="you2_2_1" style="background-position: -266px -183px;"></span>
+            				<a href="#"><span class="you2_2_2">西瓜</span></a>
+            			</li>
+            			<li>
+            			    <span class="you2_2_1" style="background-position: -300px -183px;"></span>
+            				<a href="#"><span class="you2_2_2">柿子</span></a>
+            			</li>
+            			<li>
+            			    <span class="you2_2_1" style="background-position: -11px -212px;"></span>
+            				<a href="#"><span class="you2_2_2">西兰花</span></a>
+            			</li>
+            			<li>
+            			    <span class="you2_2_1" style="background-position: -44px -212px;"></span>
+            				<a href="#"><span class="you2_2_2">茶树菇</span></a>
+            			</li>
+            			<li>
+            			    <span class="you2_2_1" style="background-position: -77px -212px;"></span>
+            				<a href="#"><span class="you2_2_2">柚子</span></a>
+            			</li>
+            			<li>
+            			    <span class="you2_2_1" style="background-position: -109px -212px;"></span>
+            				<a href="#"><span class="you2_2_2">羊肉</span></a>
+            			</li>
+            			<li>
+            			   <span class="you2_2_1" style="background-position: -142px -212px;"></span>
+            				<a href="#"><span class="you2_2_2">金针菇</span></a>
+            			</li>
+            			<li>
+            			    <span class="you2_2_1" style="background-position: -176px -212px;"></span>
+            				<a href="#"><span class="you2_2_2">玉米</span></a>
+            			</li>
+            			<li>
+            			   <span class="you2_2_1" style="background-position: -208px -212px;"></span>
+            				<a href="#"><span class="you2_2_2">紫薯</span></a>
+            			</li>
+            			<li>
+            			    <span class="you2_2_1" style="background-position: -241px -212px;"></span>
+            				<a href="#"><span class="you2_2_2">樱桃</span></a>
+            			</li>
+            			<li>
+            			    <span class="you2_2_1" style="background-position: -274px -212px;"></span>
+            				<a href="#"><span class="you2_2_2">草莓</span></a>
+            			</li>
+            			<li>
+            			    <span class="you2_2_1" style="background-position: -305px -212px;"></span>
+            				<a href="#"><span class="you2_2_2">马蹄</span></a>
+            			</li>
+            			<li>
+            			    <span class="you2_2_1" style="background-position: -8px -238px;"></span>
+            				<a href="#"><span class="you2_2_2">黑木耳</span></a>
+            			</li>
+            			<li>
+            			    <span class="you2_2_1" style="background-position: -41px -238px;"></span>
+            				<a href="#"><span class="you2_2_2">大闸蟹</span></a>
+            			</li>
+            			<li>
+            			    <span class="you2_2_1" style="background-position: -74px -238px;"></span>
+            				<a href="#"><span class="you2_2_2">山药</span></a>
+            			</li>
+            			<li>
+            			   <span class="you2_2_1" style="background-position: -107px -238px;"></span>
+            				<a href="#"><span class="you2_2_2">芋头</span></a>
+            			</li>
+            			<li>
+            			    <span class="you2_2_1" style="background-position: -140px -238px;"></span>
+            				<a href="#"><span class="you2_2_2">菠菜</span></a>
+            			<li>
+            			   <span class="you2_2_1" style="background-position: -173px -238px;"></span>
+            				<a href="#"><span class="you2_2_2">墨鱼</span></a>
+            			</li>
+            			<li>
+            			    <span class="you2_2_1" style="background-position: -206px -238px;"></span>
+            				<a href="#"><span class="you2_2_2">扁豆</span></a>
+            			</li>
+            			<li>
+            			    <span class="you2_2_1" style="background-position: -239px -238px;"></span>
+            				<a href="#"><span class="you2_2_2">三文鱼</span></a>
+            			<li>
+            			    <span class="you2_2_1" style="background-position: -272px -238px;"></span>
+            				<a href="#"><span class="you2_2_2">虾肉</span></a>
+            			</li>
+            			<li>
+            			    <span class="you2_2_1" style="background-position: -305px -238px;"></span>
+            				<a href="#"><span class="you2_2_2">燕窝</span></a
+            			</li>
+            			
+            		</ul>
+            	</div>
+            </div>
+            <div class="you3">
+            	<div class="you2_1">
+            		<p>热门食谱</p>
+            	</div>
+            	<div class="you3_2">
+            		<ul>
+            			<li class="you3_2li">
+            				<a href="#">
+            					<div><img src="img/img.png"/></div>
+            					<div class="you3_2_2">凉拌蒜苗</div>
+	            				<div class="you3_2_3">
+	            					<span>蒜苗</span>
+	            					<span>辣椒</span>
+	            					<span>大蒜</span>
+	            				</div>
+            				</a>
+            			</li>
+            			<li class="you3_2li">
+            				<a href="#">
+            					<div><img src="img/img.png"/></div>
+            					<div class="you3_2_2">圣诞老人米饭</div>
+	            				<div class="you3_2_3">
+	            					<span>蒜苗</span>
+	            					<span>辣椒</span>
+	            					<span>大蒜</span>
+	            				</div>
+            				</a>
+            			</li><li class="you3_2li">
+            				<a href="#">
+            					<div><img src="img/img.png"/></div>
+            					<div class="you3_2_2">羊肉蔬菜面</div>
+	            				<div class="you3_2_3">
+	            					<span>蒜苗</span>
+	            					<span>辣椒</span>
+	            					<span>大蒜</span>
+	            				</div>
+            				</a>
+            			</li><li class="you3_2li">
+            				<a href="#">
+            					<div><img src="img/img.png"/></div>
+            					<div class="you3_2_2">红枣小米燕麦粥</div>
+	            				<div class="you3_2_3">
+	            					<span>蒜苗</span>
+	            					<span>辣椒</span>
+	            					<span>大蒜</span>
+	            				</div>
+            				</a>
+            			</li><li class="you3_2li">
+            				<a href="#">
+            					<div><img src="img/img.png"/></div>
+            					<div class="you3_2_2">可口小菜</div>
+	            				<div class="you3_2_3">
+	            					<span>蒜苗</span>
+	            					<span>辣椒</span>
+	            					<span>大蒜</span>
+	            				</div>
+            				</a>
+            			</li><li class="you3_2li">
+            				<a href="#">
+            					<div><img src="img/img.png"/></div>
+            					<div class="you3_2_2">卤面条</div>
+	            				<div class="you3_2_3">
+	            					<span>蒜苗</span>
+	            					<span>辣椒</span>
+	            					<span>大蒜</span>
+	            				</div>
+            				</a>
+            			</li>
+            		</ul>
+            	</div>	
+            </div>
+         	<div class="you4">
+         		<div class="you2_1">
+            		<p>相关文章</p>
+            	</div>
+            	<div style="text-align: center;">
+            		<ul>
+            			<li class="you4_2li">
+            				<a href="#">
+            					<div class="you4_2li_1">杀精子的菜有哪些</div>
+            				</a>
+            				<div class="you4_2li_2">2021-04-23</div>
+            			</li>
+            			<li class="you4_2li">
+            				<a href="#">
+            					<div class="you4_2li_1">精子含有多少营养成分</div>
+            				</a>
+            				<div class="you4_2li_2">2021-04-23</div>
+            			</li>
+            			<li class="you4_2li">
+            				<a href="#">
+            					<div class="you4_2li_1">试管婴儿移植后能吃菠菜吗</div>
+            				</a>
+            				<div class="you4_2li_2">2021-04-23</div>
+            			</li>
+            			<li class="you4_2li">
+            				<a href="#">
+            					<div class="you4_2li_1">坐月子菠菜猪肝汤的做法</div>
+            				</a>
+            				<div class="you4_2li_2">2021-04-23</div>
+            			</li>
+            			<li class="you4_2li">
+            				<a href="#">
+            					<div class="you4_2li_1">备孕的最佳食谱</div>
+            				</a>
+            				<div class="you4_2li_2">2021-04-23</div>
+            			</li>
+            			<li class="you4_2li">
+            				<a href="#">
+            					<div class="you4_2li_1">月子餐菠菜蛋花汤</div>
+            				</a>
+            				<div class="you4_2li_2">2021-04-23</div>
+            			</li>
+            			<li class="you4_2li">
+            				<a href="#">
+            					<div class="you4_2li_1">试管婴儿移植后能吃菠菜吗</div>
+            				</a>
+            				<div class="you4_2li_2">2021-04-23</div>
+            			</li>
+            			<li class="you4_2li">
+            				<a href="#">
+            					<div class="you4_2li_1">坐月子菠菜猪肝汤的做法</div>
+            				</a>
+            				<div class="you4_2li_2">2021-04-23</div>
+            			</li>
+            			<li class="you4_2li">
+            				<a href="#">
+            					<div class="you4_2li_1">备孕的最佳食谱</div>
+            				</a>
+            				<div class="you4_2li_2">2021-04-23</div>
+            			</li>
+            			<li class="you4_2li" id="you4_2li">
+            				<a href="#">
+            					<div class="you4_2li_1">月子餐菠菜蛋花汤</div>
+            				</a>
+            				<div class="you4_2li_2">2021-04-23</div>
+            			</li>
+            		</ul>
+            	</div>
+         	</div>
+         
+         </div>
+	    
+	    </div>
+		<div class="dibu">
+			<div class="dibu_1">
+				<a href="">服务条款</a>
+				<span>|</span>
+				<a href="">隐私保护</a>
+				<span>|</span>
+				<a href="">关于我们</a>
+				<span>|</span>
+				<a href="">联系我们</a>
+			</div>
+			<div class="dibu_2">
+				<div class="dibu_2b">友情链接：</div>
+				<div class="dibu_2a">
+					<a href="#">孕婴童</a>
+					<a href="#">中小学教育网</a>
+					<a href="#">海涛族</a>
+					<a href="#">侠侣好玩</a>
+					<a href="#">大众养生网</a>
+					<a href="#">网上药店</a>
+					<a href="#">可可英语</a>
+					<a href="#">作文网</a>
+					<a href="#">女性百科</a>
+					<a href="#">寻医问药药品网</a>
+					<a href="#">APP运营精读</a>
+					<a href="#">亲宝网</a>
+					<a href="#">魅网女性</a>
+					<a href="#">高铁网</a>
+					<a href="#">车主指南</a>
+					<a href="#">儿歌大全100首</a>
+					<a href="#">深圳二手房</a>
+					<a href="#">时尚服装网</a>
+					<a href="#">金秀儿半定量试纸</a>
+					<a href="#">作文</a>
+					<a href="#">淘粉吧</a>
+					<a href="#">健身网</a>
+					<a href="#">苹果游戏</a>
+					<a href="#">阿拉丁指数</a>
+					<a href="#">喜马拉雅开放平台</a>
+					<a href="#">谢娜</a>
+					<a href="#">代言</a>
+					<a href="#">设全管家</a>
+					<a href="#">立乐家</a>
+				</div>
+			</div>
+			<div class="dibu_3">
+				<p>Copyright © 2021-2022 亲妈妈育儿网 版权所有</p>
+			</div>
+		</div>
+     </div>
+	 <script src="js/layui.js"></script>
+	</body>
+</html>
